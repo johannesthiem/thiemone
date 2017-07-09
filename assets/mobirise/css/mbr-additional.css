@@ -513,9 +513,6 @@ textarea,
 .mbr-gallery-filter li:hover {
   color: #f39c12;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
-}
 /*colorM*/
 /*nav-tabs*/
 .header5 .nav-tabs .nav-link:after {
@@ -785,17 +782,20 @@ blockquote {
 #menu-1 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
 }
-#header7-2 .mbr-section-subtitle {
-  text-transform: uppercase;
-  color: #9fa3a7;
+#header9-9 .elements-content {
+  padding-bottom: 50px;
 }
-#header7-2 .mbr-section-text {
-  color: #9fa3a7;
-  font-size: 20px;
+#header9-9 .mbr-section-subtitle {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
-#header7-2 .mbr-section-title {
-  color: #242424;
-  font-weight: bold;
+#header9-9 .mbr-section-title,
+#header9-9 .tab-pane {
+  color: #000;
+}
+#header9-9 .mbr-section-title {
+  font-size: 60px;
 }
 #footer1-5 .mbr-section-subtitle,
 #footer1-5 .mbr-section-text {
@@ -807,9 +807,22 @@ blockquote {
 }
 #features4-7 .mbr-section-title {
   font-weight: 700;
+  font-size: 60px;
 }
 #features4-7 .mbr-section-subtitle {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
+}
+#features17-b .mbr-section-title {
+  font-weight: 400;
+  font-size: 24px;
+}
+#features17-b .mbr-section-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+#features17-b .mbr-section-title B {
+  color: #ffffff;
 }

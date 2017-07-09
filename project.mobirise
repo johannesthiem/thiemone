@@ -18,18 +18,18 @@
         "textFont": "Open Sans",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 12,
     "versionPublish": "3.12.1"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "ThiemOne Webdesign",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -129,60 +129,170 @@
         },
         {
           "_styles": {
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
-              "color": "#9fa3a7"
+            ".elements-content": {
+              "padding-bottom": "50px"
             },
-            ".mbr-section-text": {
-              "color": "#9fa3a7",
-              "font-size": "20px"
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#000"
             },
             ".mbr-section-title": {
-              "color": "#242424",
-              "font-weight": "bold"
+              "font-size": "60px"
             }
           },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header7",
-          "_anchor": "header7-2",
+          "_name": "header9",
+          "_anchor": "header9-9",
           "_params": {
+            "tabs": "4",
             "parallax": true,
             "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
-            "bgColor": "#ecf0f1",
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.9,
             "overlayColor": "#ecf0f1",
-            "showSubtitle": true,
-            "showTitle": true,
+            "showHeader": true,
             "showText": true,
-            "showButtons": true
+            "showImages": true,
+            "showTitles": true
           },
-          "subtitle": "mobirise builder",
-          "title": "ThiemOne<br>WEB<br>DESIGN",
-          "text": "Hallo, meine Name ist Johannes Thiem. \u001bSchon während meiner Zeit als Lehrer an einer Berliner Schule habe ich mich mit Webdesign beschäftigt. Nun im Ruhestand machte ich eine Ausbildung zum Webdesigner und freue mich auf Webprojekte, die ich für dich erstellen kann!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Deine WEbsite</a>",
-          "media": {
+          "title": "<br><b>Thiem One<br> WEB DESIGN</b>",
+          "text": "",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-9\">Responsive</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-9\">Creative</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-9\">Animated</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-9\">Awesome</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-9\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-9\">Beautiful</a></li>",
+          "media11": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
-              "class": "",
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "src": "@PROJECT_PATH@/assets/images/nb1.png",
+              "class": "card-img-top",
+              "active": true
             }
           },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+          "media21": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title1": "\u001b",
+          "text1": "Hallo, meine Name ist Johannes Thiem. \u001bSchon während meiner Zeit als Lehrer an einer Berliner Schule habe ich mich mit Webdesign beschäftigt. Nun im Ruhestand machte ich eine Ausbildung zum Webdesigner und freue mich auf Webprojekte, die ich für Sie erstellen kann! ThiemOne ist ein Oneman-Unternehmen, alles liegt in einer Hand. Für Sie bedeutet dies: unkomplizierter, direkter Kontakt mit dem \"Macher\"!",
+          "media12": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb2.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "attachment",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title2": "BOOTSTRAP BUILDER",
+          "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
+          "media13": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb3.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title3": "TRENDY WEBSITE BLOCKS",
+          "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "media14": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb4.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media24": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title4": "HOST ANYWHERE",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "media15": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb5.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media25": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media16": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media26": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum."
         },
         {
           "_styles": {
@@ -254,7 +364,8 @@
         {
           "_styles": {
             ".mbr-section-title": {
-              "font-weight": "700"
+              "font-weight": "700",
+              "font-size": "60px"
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
@@ -290,92 +401,140 @@
             "overlayOpacity": 0.9,
             "overlayColor": "#51b9bc",
             "showTitle": true,
-            "columns": 3,
+            "columns": "6",
             "showImages": true,
             "showTitles": true,
             "ShowTexts": true,
             "showButtons": true
           },
-          "title": "Deine Website",
+          "title": "Ihre Website",
           "media1": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
+              "linkInNewWindow": false,
+              "name": "digital-design",
+              "family": "icon54",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
           "subtitle1": "Ansprechendes Design",
-          "caption1": "Je nach Branche kreiere ich entsprechende Layouts. Deine neue Website oder auch deine noch aktuelle Website funktioniert dann nach neusten Webstandards und macht beim Besucher einen nachhaltigen Eindruck!",
+          "caption1": "Je nach Branche kreiere ich entsprechende Layouts. Ihre neue Website oder auch Ihre noch aktuelle Website funktioniert dann nach neusten Webstandards und macht beim Besucher einen nachhaltigen Eindruck!",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
+              "linkInNewWindow": false,
+              "name": "navigation-1",
+              "family": "icon54",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
           "subtitle2": "Gute Nutzbarkeit",
           "caption2": "Die Benutzerführung deiner Website ist klar strukturiert und bietet mit überzeugender Aufmachung alle wichtigen Infos zu deinem Projekt! Ich berate gerne bei diesem wichtigen Aspekt!",
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
+              "linkInNewWindow": false,
+              "name": "responsive-design",
+              "family": "icon54",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
           "subtitle3": "Responsives Design",
-          "caption3": "Deine Website ist optimiert für alle mobilen Endgeräte!<br>Zu Hause am Bildschrirm oder unterwegs mit dem Smartphone erhält dein Besucher dieselben Informationen und wird auf deiner Website mit Freude surfen!",
+          "caption3": "Ihre Website ist optimiert für alle mobilen Endgeräte!<br>Zu Hause am Bildschrirm oder unterwegs mit dem Smartphone erhält dein Besucher dieselben Informationen und wird auf Ihrer Website mit Freude surfen!",
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "biotech",
+              "family": "iconsMind",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "subtitle4": "neueste Technologien",
+          "caption4": "Mit dem Framework Bootstrap oder mit dem CMS-System Wordpress wird browserfreundlicher Code verwendet, der sehr gut mit Suchmaschinen kompatibel ist.",
           "media5": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
+              "linkInNewWindow": false,
+              "name": "code-window",
+              "family": "iconsMind",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "subtitle5": "An Ihre Bedürfnisse angepasst",
+          "caption5": "Ob \"nur\" eine OnePage oder eine Website für ständige Veränderungen, in der Sie selbst Autor sind, alles kann ich Ihnen bieten mitsamt einer Anleitung.",
           "media6": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "et-line",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "#fff",
-              "family": "et-line"
+              "color": "#fff"
             }
           },
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>"
+          "subtitle6": "Wenn Sie wollen, bin ich Ihr Fotograf",
+          "caption6": "Mir liegt viel daran, daß Ihr Auftritt auch optisch gelungen ist. Daher trete ich gerne als Fotograf in Aktion, natürlich nur im Berliner Raum!",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">Mehr Infos</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "400",
+              "font-size": "24px"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            },
+            ".mbr-section-title B": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features17",
+          "_anchor": "features17-b",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/02.jpg",
+            "bgColor": "#ffc80a",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ffc80a",
+            "showTitle": true,
+            "showButtons": false
+          },
+          "title": "<b>Für wen und wie teuer ist die Website?&nbsp;</b><br><br>Im Focus stehen für mich Künstler, Maler, Musiker, Fotografen, Heilberufler, Ärzte, Restaurants, Kleingewerbe, Handwerker, Vereine, Anwälte und Pädagogen.&nbsp;<br><br>Meine Arbeiten sind günstig und vor allem responsiv!<br><br>Meine Preise bewegen sich von <b>400 €</b> bis <b>2000 €</b>!<br>Je nach Aufwand und Umfang ist dies die Spanne.&nbsp;<br><br>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white-outline\" href=\"https://mobirise.com\"><span class=\"cm-icon cm-icon-arrowright mbr-iconfont mbr-iconfont-btn\"></span></a>"
         }
       ]
     }
