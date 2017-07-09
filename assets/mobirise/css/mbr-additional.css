@@ -715,6 +715,18 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 /*end colorM*/
+#header9-d .elements-content {
+  padding-bottom: 50px;
+}
+#header9-d .mbr-section-subtitle {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+#header9-d .mbr-section-title,
+#header9-d .tab-pane {
+  color: #000;
+}
 #menu-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -781,21 +793,6 @@ blockquote {
 #menu-1 .link[aria-expanded="true"],
 #menu-1 .dropdown-item[aria-expanded="true"] {
   color: #f39c12!important;
-}
-#header9-9 .elements-content {
-  padding-bottom: 50px;
-}
-#header9-9 .mbr-section-subtitle {
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
-#header9-9 .mbr-section-title,
-#header9-9 .tab-pane {
-  color: #000;
-}
-#header9-9 .mbr-section-title {
-  font-size: 60px;
 }
 #footer1-5 .mbr-section-subtitle,
 #footer1-5 .mbr-section-text {
