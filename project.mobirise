@@ -88,13 +88,14 @@
           },
           "media21": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "hello",
+              "family": "iconsMind",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "title1": "HALLO!",
@@ -108,13 +109,14 @@
           },
           "media22": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "attachment",
+              "linkInNewWindow": false,
+              "name": "magic-stick",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "title2": "FOLGEN SIE DEN WEBTRENDS!",
@@ -128,13 +130,14 @@
           },
           "media23": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "paperclip",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "@primaryColor"
             }
           },
           "title3": "ERGOLG DURCH GUTES DESIGN",
@@ -436,7 +439,7 @@
             }
           },
           "subtitle2": "Gute Nutzbarkeit",
-          "caption2": "Die Benutzerführung Ihrer Website ist klar strukturiert und bietet mit überzeugender Aufmachung alle wichtigen Infos zu deinem Projekt! Ich berate gerne bei diesem wichtigen Aspekt!",
+          "caption2": "Die Benutzerführung Ihrer Website ist klar strukturiert und bietet mit überzeugender Aufmachung alle wichtigen Infos zu Ihrem Projekt! Ich berate gerne bei diesem wichtigen Aspekt!",
           "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
@@ -464,7 +467,7 @@
             }
           },
           "subtitle4": "neueste Technologien",
-          "caption4": "Mit dem Framework Bootstrap oder mit dem CMS-System Wordpress wird browserfreundlicher Code verwendet, der sehr gut mit Suchmaschinen kompatibel ist.",
+          "caption4": "Mit dem Framework BOOTSTRAP oder mit dem CMS-System WORDPRESS wird ein browserfreundlicher Code verwendet, der sehr gut mit Suchmaschinen kompatibel ist.",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
